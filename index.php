@@ -18,20 +18,23 @@
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
 
+    <style>
+        .modal { width: 70% !important ; height: 100% !important ; }
+    </style>
 </head>
 
 <body>
     <!-- แถบเมนูบาร์ -->
     <nav class="cyan" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo white-text"><b>Home</b></a>
+            <a id="logo-container" href="index.php" class="brand-logo white-text"><b>Home</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#" class="white-text"><b>Covid-19 Map</b></a></li>
+                <li><a href="covidmap.php" class="white-text"><b>Covid-19 Map</b></a></li>
                 <!-- <li><a href="#" class="white-text">About us</a></li> -->
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#" class="white-text">Covid-19 Map</a></li>
+                <li><a href="covidmap.php" class="black-text">Covid-19 Map</a></li>
                 <!-- <li><a href="#" class="white-text">About us</a></li> -->
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -47,7 +50,7 @@
                 <br><br>
                 <h1 class="header center white-text text-lighten-2"><br><b>Together We Can Fight</b></h1>
                 <div class="row center">
-                    <h4 class="header col s12 light">ขอชวนทุกท่าน ร่วมบริจาคหน้ากากอนามัยและอุปกรณ์การแพทย์</h4>
+                    <h5 class="header col s12 light">ขอชวนทุกท่าน ร่วมบริจาคหน้ากากอนามัยและอุปกรณ์การแพทย์</h5>
                 </div>
                 <!-- <div class="row center">
                     <a href="#" id="download-button" class="btn-large waves-effect waves-light cyan accent-4">Get Started</a>
@@ -73,7 +76,7 @@
                 </div>
             </div>
         </div>
-    </div><br>
+    </div>
 
 
 
@@ -98,25 +101,28 @@
 
             <!-- โรงพยาบาลบําราศนราดูร -->
             <div class="col s12 m4">
-                <div class="card">
+                <div class="card medium">
                     <div class="card-image">
                         <img src="img/bamrasnaradura.jpg">
                         <span class="card-title">Card Title</span>
                     </div>
                     <div class="card-content">
                         <h6>โรงพยาบาลบําราศนราดูร</h6>
+                        <br>
+                        <h6>รับบริจาคหน้ากาก : xxx ชิ้น</h6>
                     </div>
 
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal1">รายละเอียด</a>
                     <!-- Modal Structure -->
-                    <div id="modal1" class="modal modal-fixed-footer">
+                    <div id="modal1" class="modal modal-footer">
                         <div class="modal-content">
                             <h4>โรงพยาบาลบําราศนราดูร</h4>
-                            <p>A bunch of text</p>
+                            <img class="responsive-img" src="img/bamrasnaradura.jpg">
+                            <!-- <p>A bunch of text</p> -->
                         </div>
                         <div class="modal-footer">
-                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
 
@@ -126,25 +132,28 @@
 
             <!-- โรงพยาบาลราชวิถี -->
             <div class="col s12 m4">
-                <div class="card">
+                <div class="card medium">
                     <div class="card-image">
                         <img src="img/rajvithi.jpg">
                         <span class="card-title">Card Title</span>
                     </div>
                     <div class="card-content">
-                        <h6>โรงพยาบาลราชวิถี</p>
+                        <h6>โรงพยาบาลราชวิถี</h6>
+                        <br>
+                        <h6>รับบริจาคหน้ากาก : xxx ชิ้น</h6>
                     </div>
 
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal2">รายละเอียด</a>
                     <!-- Modal Structure -->
-                    <div id="modal2" class="modal modal-fixed-footer">
+                    <div id="modal2" class="modal modal-footer">
                         <div class="modal-content">
                             <h4>โรงพยาบาลราชวิถี</h4>
-                            <p>A bunch of text</p>
+                            <img class="responsive-img" src="img/rajvithi.jpg">
+                            <!-- <p>A bunch of text</p> -->
                         </div>
                         <div class="modal-footer">
-                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
 
@@ -154,25 +163,28 @@
 
             <!-- โรงพยาบาลรามาธิบดี -->
             <div class="col s12 m4">
-                <div class="card">
+                <div class="card medium">
                     <div class="card-image">
                         <img src="img/rama.jpg">
                         <span class="card-title">Card Title</span>
                     </div>
                     <div class="card-content">
                         <h6>โรงพยาบาลรามาธิบดี</h6>
+                        <br>
+                        <h6>รับบริจาคหน้ากาก : xxx ชิ้น</h6>
                     </div>
 
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal3">รายละเอียด</a>
                     <!-- Modal Structure -->
-                    <div id="modal3" class="modal modal-fixed-footer">
+                    <div id="modal3" class="modal modal-footer">
                         <div class="modal-content">
                             <h4>โรงพยาบาลรามาธิบดี</h4>
-                            <p>A bunch of text</p>
+                            <img class="responsive-img" src="img/rama.jpg">
+                            <!-- <p>A bunch of text</p> -->
                         </div>
                         <div class="modal-footer">
-                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
 
@@ -254,9 +266,9 @@
                 <div class="col l6 s12">
                     <h5 class="white-text">Contact</h5>
                     <ul>
-                        <li>Website : <a class="white-text" href="http://www.ce.fit.ssru.ac.th/">สาขาวิชาวิศกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฎสวนสุนันทา</a></li>
-                        <li>Facebook : <a class="white-text" href="https://www.facebook.com/CE-SSRU-101947597890618">Computer Engineering SSRU</a></li>
-                        <li>Youtube : <a class="white-text" href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw">CE@SSRU Channel</a></li>
+                        <li>Website : <a class="white-text" href="http://www.ce.fit.ssru.ac.th/" target="_blank">สาขาวิชาวิศกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฎสวนสุนันทา</a></li>
+                        <li>Facebook : <a class="white-text" href="https://www.facebook.com/CE-SSRU-101947597890618" target="_blank">Computer Engineering SSRU</a></li>
+                        <li>Youtube : <a class="white-text" href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw" target="_blank">CE@SSRU Channel</a></li>
                     </ul>
                 </div>
             </div>
