@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Covid-19</title>
+    <title>#SaveMed</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/font.css">
@@ -30,14 +30,14 @@
     <!-- แถบเมนูบาร์ -->
     <nav class="cyan" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="index.php" class="brand-logo white-text"><b>Home</b></a>
+            <a id="logo-container" href="index.php" class="brand-logo white-text"><b>#SaveMed</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="need.php" class="white-text"><b>ตารางความต้องการ</b></a></li>
+                <li><a href="need.php" class="white-text"><b>What Need</b></a></li>
                 <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="white-text"><b>Covid-19 Map</b></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="need.php" class="black-text"><b>ตารางความต้องการ</b></a></li>
+                <li><a href="need.php" class="black-text"><b>What Need</b></a></li>
                 <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="black-text"><b>Covid-19 Map</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -72,10 +72,10 @@
             <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h5>เป้าหมายของเรา</h5>
-                    <p class="left-align light">ทางผู้จัดทำหวังให้เว็บแอปพลิเคชันของเรา เป็นสื่อกลางในการ "ประชาสัมพันธ์" การรับบริจาคให้กับทางโรงพยาบาลต่างๆ
+                    <h5>เป้าหมายของ #SaveMed</h5>
+                    <p class="left-align light">#SaveMed หวังให้เว็บไซต์ของเราเป็นสื่อกลางในการ "ประชาสัมพันธ์" การรับบริจาคให้กับทางโรงพยาบาลต่างๆ
                         ที่ขาดแคลนหน้ากากอนามัย และอุปกรณ์การแพทย์อยู่ในขณะนี้ โดยได้รวบรวมรายชื่อและรายละเอียดของทางโรงพยาบาลที่รับบริจาค
-                        รวมทั้งช่องทางติดต่อกับทางโรงพยาบาลนั้นๆไว้<br>ทางเราจึงขอเชิญชวนให้ทุกท่าน <i style="color:red">ร่วมกันบริจาคให้กับโรงพยาบาล</i>ตามแต่สะดวกค่ะ</p>
+                        รวมทั้งช่องทางติดต่อกับทางโรงพยาบาลนั้นๆไว้<br>ทางเราจึงขอเชิญชวนให้ทุกท่าน<i style="color:red">ร่วมกันบริจาคให้กับโรงพยาบาล</i>ตามแต่สะดวกค่ะ</p>
                 </div>
             </div>
         </div>
@@ -301,7 +301,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container white-text">
-                Made by : <a class="white-text text-lighten-3" href="admin/admin_page.php">Computer Engineering SSRU</a>
+                Made by : <a class="white-text text-lighten-3" href="admin/admin_page.php">CE SSRU 60</a>
             </div>
         </div>
     </footer>

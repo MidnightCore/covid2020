@@ -26,11 +26,11 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="admin_page.php" class="brand-logo white-text"><b>Admin</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="../need.php" target="_blank" class="white-text"><b>ไปดูตารางความต้องการ</b></a></li>
+                <li><a href="../need.php" target="_blank" class="white-text"><b>Go to - What Need</b></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="../need.php" target="_blank" class="black-text"><b>ไปดูตารางความต้องการ</b></a></li>
+                <li><a href="../need.php" target="_blank" class="black-text"><b>Go to - What Need</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
