@@ -19,7 +19,10 @@
     <script src="js/init.js"></script>
 
     <style>
-        .modal { width: 70% !important ; height: 100% !important ; }
+        .modal {
+            width: 70% !important;
+            height: 100% !important;
+        }
     </style>
 </head>
 
@@ -29,13 +32,13 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php" class="brand-logo white-text"><b>Home</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="covidmap.php" class="white-text"><b>Covid-19 Map</b></a></li>
-                <!-- <li><a href="#" class="white-text">About us</a></li> -->
+                <li><a href="need.php" class="white-text"><b>ตารางความต้องการ</b></a></li>
+                <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="white-text"><b>Covid-19 Map</b></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="covidmap.php" class="black-text">Covid-19 Map</a></li>
-                <!-- <li><a href="#" class="white-text">About us</a></li> -->
+                <li><a href="need.php" class="black-text"><b>ตารางความต้องการ</b></a></li>
+                <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="black-text"><b>Covid-19 Map</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -70,9 +73,9 @@
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <h5>เป้าหมายของเรา</h5>
-                    <p class="left-align light">ทางผู้จัดทำหวังให้เว็บแอปพลิเคชันของเรา เป็นสื่อกลางการรับบริจาคให้กับทางโรงพยาบาลต่างๆ
-                        ที่ขากแคลนหน้ากากอนามัย และอุปกรณ์การแพทย์อยู่ในขณะนี้ โดยได้รวบรวมรายชื่อและรายละเอียดของทางโรงพยาบาลที่รับบริจาค
-                        รวมทั้งช่องทางติดต่อกับทางโรงพยาบาลนั้นๆไว้<br>ทางเราจึงขอเชิญชวนให้ทุกท่าน ร่วมกันบริจาคให้กับโรงพยาบาลตามแต่สะดวก</p>
+                    <p class="left-align light">ทางผู้จัดทำหวังให้เว็บแอปพลิเคชันของเรา เป็นสื่อกลางในการ "ประชาสัมพันธ์" การรับบริจาคให้กับทางโรงพยาบาลต่างๆ
+                        ที่ขาดแคลนหน้ากากอนามัย และอุปกรณ์การแพทย์อยู่ในขณะนี้ โดยได้รวบรวมรายชื่อและรายละเอียดของทางโรงพยาบาลที่รับบริจาค
+                        รวมทั้งช่องทางติดต่อกับทางโรงพยาบาลนั้นๆไว้<br>ทางเราจึงขอเชิญชวนให้ทุกท่าน <i style="color:red">ร่วมกันบริจาคให้กับโรงพยาบาล</i>ตามแต่สะดวกค่ะ</p>
                 </div>
             </div>
         </div>
@@ -83,7 +86,8 @@
 
     <!-- ส่วนของรายชื่อรับบริจาค จากโรงพยาบาล -->
     <div class="container">
-        <h4>รายชื่อโรงพยาบาล ที่รับบริจาค</h4>
+        <h4>รายชื่อโรงพยาบาลที่รับบริจาค</h4>
+        <h5><i style="color: red">*ในขณะนี้</i></h5>
         <br>
         <div class="row">
 
@@ -107,9 +111,8 @@
                         <span class="card-title">Card Title</span>
                     </div>
                     <div class="card-content">
-                        <h6>โรงพยาบาลบําราศนราดูร</h6>
-                        <br>
-                        <h6>รับบริจาคหน้ากาก : xxx ชิ้น</h6>
+                        <h6><b>โรงพยาบาลบําราศนราดูร</b></h6>
+                        <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
 
                     <!-- Modal Trigger -->
@@ -138,9 +141,8 @@
                         <span class="card-title">Card Title</span>
                     </div>
                     <div class="card-content">
-                        <h6>โรงพยาบาลราชวิถี</h6>
-                        <br>
-                        <h6>รับบริจาคหน้ากาก : xxx ชิ้น</h6>
+                        <h6><b>โรงพยาบาลราชวิถี</b></h6>
+                        <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
 
                     <!-- Modal Trigger -->
@@ -169,9 +171,8 @@
                         <span class="card-title">Card Title</span>
                     </div>
                     <div class="card-content">
-                        <h6>โรงพยาบาลรามาธิบดี</h6>
-                        <br>
-                        <h6>รับบริจาคหน้ากาก : xxx ชิ้น</h6>
+                        <h6><b>โรงพยาบาลรามาธิบดี</b></h6>
+                        <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
 
                     <!-- Modal Trigger -->
@@ -192,6 +193,34 @@
             </div>
 
 
+            <!-- โรงพยาบาลรามาธิบดี -->
+            <div class="col s12 m4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="img/rama2.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6><b>โรงพยาบาลรามาธิบดี</b></h6>
+                        <h6>รับบริจาคหน้ากากอนามัยสำหรับบุคคลากร (Surgical Grade N95)</h6>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal4">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal4" class="modal modal-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลรามาธิบดี</h4>
+                            <img class="responsive-img" src="img/rama2.jpg">
+                            <!-- <p>A bunch of text</p> -->
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div><br><br>
 

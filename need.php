@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Covid-19 Map</title>
+    <title>ตารางความต้องการ</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/font.css">
@@ -26,18 +26,18 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php" class="brand-logo white-text"><b>Home</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="covidmap.php" class="white-text"><b>Covid-19 Map</b></a></li>
-                <!-- <li><a href="#" class="white-text">About us</a></li> -->
+                <li><a href="need.php" class="white-text"><b>ตารางความต้องการ</b></a></li>
+                <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="white-text"><b>Covid-19 Map</b></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="covidmap.php" class="black-text">Covid-19 Map</a></li>
-                <!-- <li><a href="#" class="white-text">About us</a></li> -->
+                <li><a href="need.php" class="black-text"><b>ตารางความต้องการ</b></a></li>
+                <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="black-text"><b>Covid-19 Map</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
-    
+
 </body>
 
 </html>
