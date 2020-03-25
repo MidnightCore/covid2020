@@ -51,7 +51,9 @@
                 <tr>
                     <th style="font-family: 'Itim', cursive;">สิ่งที่ต้องการ</th>
                     <th style="font-family: 'Itim', cursive;">จำนวนชิ้น</th>
-                    <th style="font-family: 'Itim', cursive;">รายละเอียด</th>
+                    <th style="font-family: 'Itim', cursive;">รายละเอียดผู้ขอ</th>
+                    <th style="font-family: 'Itim', cursive;">สถานะปัจจุบัน</th>
+                    <!-- <th style="font-family: 'Itim', cursive;">แก้ไข</th> -->
                 </tr>
             </thead>
 
@@ -63,26 +65,16 @@
                         คณะแพทยศาสตร์ศิริราชพยาบาล
                         บางกอกน้อย กทม 10700
                     </td>
+                    <td>รอรับบริจาค</td>
+                    <!-- <td>
+                        <a href="#">
+                            <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">แก้ไข
+                                <i class="material-icons right">border_color</i>
+                            </button>
+                        </a>
+                    </td> -->
                 </tr>
-                <tr>
-                    <td>ฟองน้ำ</td>
-                    <td>200</td>
-                    <td>พญ.จิราวรรณ จันทร์เลิศฤทธิ์
-                        ศูนย์บริการสาธารณสุขโพธิ์กลาง
-                        เทศบาลนครนครราชสีมา
-                        จ.นครราชสีมา
-                    </td>
-                </tr>
-                <tr>
-                    <td>ฟองน้ำ</td>
-                    <td>60</td>
-                    <td>ภัทราพร จันทร์เมืองไทย
-                        หน่วยทารกแรกเกิด
-                        กองกุมารเวชกรรม
-                        โรงพยาบาลพระมงกุฏเกล้า 315
-                        อาคารพัชรกิตติยาภา ชั้น2 แขวงทุ่งพญาไท เขตราชเทวี กทม 10400
-                    </td>
-                </tr>
+
             </tbody>
         </table>
     </div>
