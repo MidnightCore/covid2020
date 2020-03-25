@@ -1,11 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Covid-19</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
 </head>
+
 <body>
-    
+    <!-- แถบเมนูบาร์ -->
+    <nav class="cyan" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo white-text"><b>Home</b></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="white-text"><b>Covid-19 Map</b></a></li>
+                <!-- <li><a href="#" class="white-text">About us</a></li> -->
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#" class="white-text">Covid-19 Map</a></li>
+                <!-- <li><a href="#" class="white-text">About us</a></li> -->
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+
+
+    <!-- ภาพแบนเนอร์ ภาพที่ 1 -->
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center white-text text-lighten-2"><br><b>Together We Can Fight</b></h1>
+                <div class="row center">
+                    <h4 class="header col s12 light">ขอชวนทุกท่าน ร่วมบริจาคหน้ากากอนามัยและอุปกรณ์การแพทย์</h4>
+                </div>
+                <!-- <div class="row center">
+                    <a href="#" id="download-button" class="btn-large waves-effect waves-light cyan accent-4">Get Started</a>
+                </div> -->
+                <br><br>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/pic1.jpg" alt="Photo by Ashkan Forouzani on Unsplash"></div>
+    </div><br><br>
+
+
+
+    <!-- ส่วนของการเกริ่นนำ -->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h5>เป้าหมายของเรา</h5>
+                    <p class="left-align light">ทางผู้จัดทำหวังให้เว็บแอปพลิเคชันของเรา เป็นสื่อกลางการรับบริจาคให้กับทางโรงพยาบาลต่างๆ
+                        ที่ขากแคลนหน้ากากอนามัย และอุปกรณ์การแพทย์อยู่ในขณะนี้ โดยได้รวบรวมรายชื่อและรายละเอียดของทางโรงพยาบาลที่รับบริจาค
+                        รวมทั้งช่องทางติดต่อกับทางโรงพยาบาลนั้นๆไว้<br>ทางเราจึงขอเชิญชวนให้ทุกท่าน ร่วมกันบริจาคให้กับโรงพยาบาลตามแต่สะดวก</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+    <!-- ส่วนของรายชื่อรับบริจาค จากโรงพยาบาล -->
+    <div class="container">
+        <h4>รายชื่อโรงพยาบาล ที่รับบริจาค</h4>
+        <br>
+        <div class="row">
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.modal');
+                    var instances = M.Modal.init(elems, options);
+                });
+                // Or with jQuery
+                $(document).ready(function() {
+                    $('.modal').modal();
+                });
+            </script>
+
+
+            <!-- โรงพยาบาลบําราศนราดูร -->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/bamrasnaradura.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6>โรงพยาบาลบําราศนราดูร</h6>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลบําราศนราดูร</h4>
+                            <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- โรงพยาบาลราชวิถี -->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/rajvithi.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6>โรงพยาบาลราชวิถี</p>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal2" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลราชวิถี</h4>
+                            <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- โรงพยาบาลรามาธิบดี -->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/rama.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6>โรงพยาบาลรามาธิบดี</h6>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal3" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลรามาธิบดี</h4>
+                            <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div><br><br>
+
+
+
+    <!-- ภาพแบนเนอร์ ภาพที่ 2 -->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h3 class="header col s12 light">How to take care?</h3>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/pic2.jpg" alt="Photo by Kelly Sikkema on Unsplash"></div>
+    </div>
+
+
+
+
+    <!-- ส่วนของการแนะนำ -->
+    <div class="container">
+        <div class="section">
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center cyan-text"><i class="material-icons">transfer_within_a_station</i></h2>
+                        <h5 class="center">Social Distance</h5>
+                        <p class="light">Social Distance มีความสำคัญเป็นอย่างมากในการลดการแพร่ระบาดของ Covid-19
+                            โดยในการพูดคุยกัน ฝอยละอองสามารถกระเด็นออกมาได้ในระยะ 1 เมตร
+                            จึงมีคำแนะนำว่าควรวางตัวให้ห่างจากกัน 2 เมตร เพื่อเลี่ยงการติดต่อของโรค</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center cyan-text"><i class="material-icons">healing</i></h2>
+                        <h5 class="center">Take Care Yourself</h5>
+                        <p class="light">1. ออกกำลังกายอย่างสม่ำเสมอ<br>
+                            2. หมั่นล้างมืออย่างถูกวิธี<br>
+                            3. เลี่ยงการแตะหรือจับใบหน้า<br>
+                            4. เลี่ยงการใกล้ชิดผู้มีอาการคล้ายไข้หวัด<br>
+                            5. รับประทานอาหารที่มีประโยชน์ต่อสุขภาพ</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center cyan-text"><i class="material-icons">home</i></h2>
+                        <h5 class="center">Stay Home</h5>
+                        <p class="light">พยายามใช้เวลาอยู่ในบ้าน และเลี่ยงการออกไปนอกบ้านโดยไม่จำเป็น
+                            เพื่อลดความเสี่ยงในการติดเชื้อจากผู้ติดเชื้อ และลดความเสี่ยงในการแพร่เชื้อสู่ผู้อื่นโดยไม่ตั้งใจ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+    <!-- ส่วนของ footer -->
+    <footer class="page-footer cyan accent-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About Us</h5>
+                    <p class="grey-text text-lighten-4">We are HyperTag , a team of college students
+                        working on this project like it's our full time job.</p>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact</h5>
+                    <ul>
+                        <li>Website : <a class="white-text" href="http://www.ce.fit.ssru.ac.th/">สาขาวิชาวิศกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฎสวนสุนันทา</a></li>
+                        <li>Facebook : <a class="white-text" href="https://www.facebook.com/CE-SSRU-101947597890618">Computer Engineering SSRU</a></li>
+                        <li>Youtube : <a class="white-text" href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw">CE@SSRU Channel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container white-text">
+                Made by : <a class="white-text text-lighten-3" href="#">Computer Engineering SSRU</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
