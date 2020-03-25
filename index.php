@@ -287,8 +287,7 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">About Us</h5>
-                    <p class="grey-text text-lighten-4">We are HyperTag , a team of college students
-                        working on this project like it's our full time job.</p>
+                    <p class="grey-text text-lighten-4">ทางสาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฏสวนสุนันทา ได้ร่วมมือกับ HomeSchoolTrip ในการจัดสร้างเว็บแอปพลิเคชันนี้ขึ้นมา</p>
                 </div>
                 <div class="col l6 s12">
                     <h5 class="white-text">Contact</h5>
