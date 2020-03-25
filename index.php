@@ -128,7 +128,6 @@
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -158,7 +157,6 @@
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -188,7 +186,6 @@
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -218,9 +215,10 @@
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
                         </div>
                     </div>
-
                 </div>
             </div>
+
+
         </div>
     </div><br><br>
 

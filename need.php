@@ -36,7 +36,56 @@
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-    </nav>
+    </nav><br>
+
+    <div class="container">
+        <h4>ตารางความต้องการ</h4>
+        <h6><i style="color: red">*ในขณะนี้</i></h6>
+        <br>
+    </div>
+
+    <!-- ส่วนของตาราง -->
+    <div class="container">
+        <table class="responsive-table">
+            <thead>
+                <tr>
+                    <th style="font-family: 'Itim', cursive;">สิ่งที่ต้องการ</th>
+                    <th style="font-family: 'Itim', cursive;">จำนวนชิ้น</th>
+                    <th style="font-family: 'Itim', cursive;">รายละเอียด</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ฟองน้ำ</td>
+                    <td>400</td>
+                    <td>ภาควิชาวิสัญญีวิทยา
+                        คณะแพทยศาสตร์ศิริราชพยาบาล
+                        บางกอกน้อย กทม 10700
+                    </td>
+                </tr>
+                <tr>
+                    <td>ฟองน้ำ</td>
+                    <td>200</td>
+                    <td>พญ.จิราวรรณ จันทร์เลิศฤทธิ์
+                        ศูนย์บริการสาธารณสุขโพธิ์กลาง
+                        เทศบาลนครนครราชสีมา
+                        จ.นครราชสีมา
+                    </td>
+                </tr>
+                <tr>
+                    <td>ฟองน้ำ</td>
+                    <td>60</td>
+                    <td>ภัทราพร จันทร์เมืองไทย
+                        หน่วยทารกแรกเกิด
+                        กองกุมารเวชกรรม
+                        โรงพยาบาลพระมงกุฏเกล้า 315
+                        อาคารพัชรกิตติยาภา ชั้น2 แขวงทุ่งพญาไท เขตราชเทวี กทม 10400
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 
