@@ -1,3 +1,9 @@
+<?php
+    $status = "รอรับบริจาค";
+    require './server/server.php';
+    $sql = "SELECT `need`, `piece`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $result = mysqli_query($connect,$sql);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,24 +66,19 @@
             </thead>
 
             <tbody>
-                <tr>
-                    <td>ฟองน้ำ</td>
-                    <td>400</td>
-                    <td>ภาควิชาวิสัญญีวิทยา
-                        คณะแพทยศาสตร์ศิริราชพยาบาล
-                        บางกอกน้อย กทม 10700
-                    </td>
-                    <td>รอรับบริจาค</td>
-                    <!-- <td>
-                        <a href="#">
-                            <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">แก้ไข
-                                <i class="material-icons right">border_color</i>
-                            </button>
-                        </a>
-                    </td> -->
-                </tr>
+                    <?php while ($row = mysqli_fetch_array($result)) {  ?>
 
-            </tbody>
+                        <tr>
+                            <td><?php echo $row['need'] ?></td>
+                            <td><?php echo $row['piece'] ?></td>
+                            <td><?php echo $row['applicant'] ?></td>
+                            <td><?php echo $row['status'] ?></td>
+                        </tr>
+                    <?php } ?>
+
+
+
+                </tbody>
         </table>
     </div>
 

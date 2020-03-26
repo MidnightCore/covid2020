@@ -1,3 +1,9 @@
+<?php
+    $status = "รอรับบริจาค";
+    require './../server/server.php';
+    $sql = "SELECT `need`, `piece`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $result = mysqli_query($connect,$sql);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
