@@ -3,6 +3,15 @@
     require './../server/server.php';
     $sql = "SELECT `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
     $result = mysqli_query($connect,$sql);
+    $palm = 0;
+if (isset($_GET['alert'])) {
+    $palm = $_GET['alert'];
+}
+if ($palm == 1) {
+    echo "<script>alert('เพิ่มข้อมูลเรียบร้อยค่ะ');history.back();</script>";
+} else if ($palm == 2) {
+    echo "<script>alert('ไม่สามารถเพิ่มข้อมูลได้ค่ะ');history.back();</script>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
