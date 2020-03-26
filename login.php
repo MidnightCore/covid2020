@@ -29,6 +29,7 @@ if ($palm == 1) {
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
@@ -51,7 +52,9 @@ if ($palm == 1) {
                     <div class="col s12 m6 offset-m3">
                         <div class="card center-align mg">
                             <div class="card-content"><br>
-                                <span class="card-title"><h4>#SaveMed Admin</h4></span><br>
+                                <span class="card-title">
+                                    <h4>#SaveMed Admin</h4>
+                                </span><br>
                                 <div class="row">
                                     <div class="col s12">
                                         <div class="row">
@@ -71,8 +74,9 @@ if ($palm == 1) {
                                 <!-- <button type="submit" class="btn pulse waves-effect waves-light cyan accent-4" name="action">Login
                                     <i class="material-icons right">done</i>
                                 </button> -->
-                                <a href="admin/admin_page.php" class="btn pulse waves-effect waves-light cyan accent-4">button</a>
-                                
+                                <a href="admin/admin_page.php" class="btn pulse waves-effect waves-light cyan accent-4">Login
+                                    <i class="material-icons right">done</i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +84,6 @@ if ($palm == 1) {
             </form>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
