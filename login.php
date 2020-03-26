@@ -68,10 +68,11 @@ if ($palm == 1) {
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn pulse waves-effect waves-light cyan accent-4" name="action">Login
+                                <!-- <button type="submit" class="btn pulse waves-effect waves-light cyan accent-4" name="action">Login
                                     <i class="material-icons right">done</i>
-                                </button>
-
+                                </button> -->
+                                <a href="admin/admin_page.php" class="btn pulse waves-effect waves-light cyan accent-4">button</a>
+                                
                             </div>
                         </div>
                     </div>
