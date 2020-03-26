@@ -219,6 +219,65 @@
             </div>
 
 
+            <!-- โรงพยาบาลจุฬาลงกรณ์ -->
+            <div class="col s12 m4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="img/jura.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6><b>โรงพยาบาลจุฬาลงกรณ์</b></h6>
+                        <h6>รับบริจาคอาหารปรุงสำเร็จ อาทิเช่น ข้าวกล่อง/อาหารว่าง</h6>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal5">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal5" class="modal modal-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลจุฬาลงกรณ์</h4>
+                            <img class="responsive-img" src="img/jura.jpg">
+                            <!-- <p>A bunch of text</p> -->
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- โรงพยาบาลจุฬาลงกรณ์ -->
+            <div class="col s12 m4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="img/jura2.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6><b>โรงพยาบาลจุฬาลงกรณ์</b></h6>
+                        <h6>รับบริจาคหน้ากากอนามัยสำหรับบุคคลากร (Surgical Grade N95)</h6>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal6">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal6" class="modal modal-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลจุฬาลงกรณ์</h4>
+                            <img class="responsive-img" src="img/jura2.jpg">
+                            <!-- <p>A bunch of text</p> -->
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div><br><br>
 
