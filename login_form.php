@@ -24,6 +24,6 @@ echo$em_User;
       exit();
     }
   }else{
-    // header("location:login.php?alert=1");
+    header("location:login.php?alert=1");
     exit();
   }
