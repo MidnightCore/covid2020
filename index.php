@@ -360,7 +360,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container white-text">
-                Made by : <a class="white-text text-lighten-3" href="admin/admin_page.php">CE SSRU 60</a>
+                Made by : <a class="white-text text-lighten-3" href="admin/admin_page.php">Computer Engineering SSRU</a>
             </div>
         </div>
     </footer>
