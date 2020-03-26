@@ -26,6 +26,7 @@
     </style>
 </head>
 
+
 <body>
     <!-- แถบเมนูบาร์ -->
     <nav class="cyan" role="navigation">
@@ -33,14 +34,14 @@
             <a id="logo-container" href="index.php" class="brand-logo white-text"><b>#SaveMed</b></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="need.php" class="white-text"><b>What Need ?</b></a></li>
-                <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="white-text"><b>Covid-19 Map</b></a></li>
+                <li><a href="https://covidtracker.5lab.co/" target="_blank" class="white-text"><b>Covid-19 Map</b></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
                 <br><br><br>
                 <li><a href="index.php" class="black-text"><b>#SaveMed Homepage</b></a></li><br>
                 <li><a href="need.php" class="black-text"><b>What Need ?</b></a></li><br>
-                <li><a href="https://covidtracker.5lab.co/en" target="_blank" class="black-text"><b>Covid-19 Map</b></a></li>
+                <li><a href="https://covidtracker.5lab.co/" target="_blank" class="black-text"><b>Covid-19 Map</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -116,7 +117,6 @@
                         <h6><b>โรงพยาบาลบําราศนราดูร</b></h6>
                         <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal1">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -145,7 +145,6 @@
                         <h6><b>โรงพยาบาลราชวิถี</b></h6>
                         <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal2">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -174,7 +173,6 @@
                         <h6><b>โรงพยาบาลรามาธิบดี</b></h6>
                         <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal3">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -203,7 +201,6 @@
                         <h6><b>โรงพยาบาลรามาธิบดี</b></h6>
                         <h6>รับบริจาคหน้ากากอนามัยสำหรับบุคคลากร (Surgical Grade N95)</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal4">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -232,7 +229,6 @@
                         <h6><b>โรงพยาบาลจุฬาลงกรณ์</b></h6>
                         <h6>รับบริจาคอาหารปรุงสำเร็จ อาทิเช่น ข้าวกล่อง/อาหารว่าง</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal5">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -261,7 +257,6 @@
                         <h6><b>โรงพยาบาลจุฬาลงกรณ์</b></h6>
                         <h6>รับบริจาคหน้ากากอนามัยสำหรับบุคคลากร (Surgical Grade N95)</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal6">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -280,8 +275,7 @@
 
 
 
-            <!-- โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ
- -->
+            <!-- โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ-->
             <div class="col s12 m4">
                 <div class="card medium">
                     <div class="card-image">
@@ -292,7 +286,6 @@
                         <h6><b>โรงพยาบาลธรรมศาสตร์</b></h6>
                         <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
                     </div>
-
                     <!-- Modal Trigger -->
                     <a class="waves-effect waves-light btn modal-trigger" href="#modal7">รายละเอียด</a>
                     <!-- Modal Structure -->
@@ -308,7 +301,6 @@
                     </div>
                 </div>
             </div>
-
 
 
         </div>
@@ -327,7 +319,6 @@
         </div>
         <div class="parallax"><img src="img/pic2.jpg" alt="Photo by Kelly Sikkema on Unsplash"></div>
     </div>
-
 
 
 
