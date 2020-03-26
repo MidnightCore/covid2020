@@ -1,7 +1,7 @@
 <?php
     $status = "รอรับบริจาค";
     require './../server/server.php';
-    $sql = "SELECT `need`, `piece`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $sql = "SELECT `need`, `piece`, `place`, `status` FROM save_med WHERE save_med.status = '$status' ";
     $result = mysqli_query($connect,$sql);
 ?>
 <!DOCTYPE html>
@@ -77,7 +77,7 @@
                     <tr>
                         <td><?php echo $row['need'] ?></td>
                         <td><?php echo $row['piece'] ?></td>
-                        <td><?php echo $row['applicant'] ?></td>
+                        <td><?php echo $row['place'] ?></td>
                         <td><?php echo $row['status'] ?></td>
                         <td>
                             <a href="#">
