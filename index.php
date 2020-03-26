@@ -53,7 +53,7 @@
                 <br><br>
                 <h1 class="header center white-text text-lighten-2"><br><b>Together We Can Fight</b></h1>
                 <div class="row center">
-                    <h5 class="header col s12 light">ขอชวนทุกท่าน ร่วมบริจาคหน้ากากอนามัยและอุปกรณ์การแพทย์</h5>
+                    <h5 class="header col s12 light">ขอเชิญชวนทุกท่าน ร่วมกันบริจาคหน้ากากอนามัยและอุปกรณ์การแพทย์</h5>
                 </div>
                 <!-- <div class="row center">
                     <a href="#" id="download-button" class="btn-large waves-effect waves-light cyan accent-4">Get Started</a>
