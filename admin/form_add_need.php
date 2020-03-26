@@ -54,42 +54,49 @@
 
 
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" action="add_need.php" id="addrequest" method="POST">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">สิ่งที่ต้องการ</label>
+                        <input name="need" id="need" type="text" class="validate" required>
+                        <label for="need">สิ่งที่ต้องการ</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">จำนวน(ชิ้น)</label>
+                        <input name="piece" id="piece" type="text" class="validate" required>
+                        <label for="piece">จำนวน(ชิ้น)</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">ผู้ขอรับบริจาค</label>
+                        <input name="applicant" id="applicant" type="text" class="validate" required>
+                        <label for="applicant">ผู้ขอรับบริจาค</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">ที่อยู่สำหรับจัดส่ง</label>
+                        <input name="place" id="place" type="text" class="validate" required>
+                        <label for="place">ที่อยู่สำหรับจัดส่ง</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s6">
-                        <select id="first_name" class="validate">
+                        <select name="status" id="status" class="validate" required>
                             <option value="" disabled selected>สถานะปัจจุบัน</option>
                             <option value="1">รอรับบริจาค</option>
                             <option value="2">ได้รับบริจาคแล้ว</option>
                         </select>
-                        <label for="first_name">เลือกสถานะ</label>
+                        <label for="status">เลือกสถานะ</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">เบอร์ติดต่อ</label>
+                        <input name="contact" id="contact" type="text" class="validate" required>
+                        <label for="contact">เบอร์ติดต่อ</label>
                     </div>
                 </div>
             </form>
+
+            <div class="center-align">
+                <button type="submit" form="addrequest" class="btn waves-effect waves-light">ยืนยัน
+                    <i class="material-icons right">done</i>
+                </button>
+            </div><br><br><br>
+
         </div>
     </div>
 </body>
