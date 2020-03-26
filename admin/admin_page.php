@@ -1,16 +1,20 @@
 <?php
-    $status = "รอรับบริจาค";
+    // $status = "รอรับบริจาค";
     require './../server/server.php';
-    $sql = "SELECT `id`, `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $sql = "SELECT `id`, `need`, `piece`, `place`,`applicant`, `status` FROM save_med ";
     $result = mysqli_query($connect,$sql);
     $palm = 0;
 if (isset($_GET['alert'])) {
     $palm = $_GET['alert'];
 }
 if ($palm == 1) {
-    echo "<script>alert('เพิ่มข้อมูลเรียบร้อยค่ะ');history.back();</script>";
+    echo "<script>alert('เพิ่มข้อมูลเรียบร้อยค่ะ');</script>";
 } else if ($palm == 2) {
     echo "<script>alert('ไม่สามารถเพิ่มข้อมูลได้ค่ะ');history.back();</script>";
+} else if ($palm == 3) {
+    echo "<script>alert('แก้ไขข้อมูลเรียบร้อยแล้วค่ะ');</script>";
+}else if ($palm == 4) {
+    echo "<script>alert('ไม่สามารถแก้ไขข้อมูลได้ค่ะ');history.back();</script>";
 }
 ?>
 <!DOCTYPE html>
@@ -91,14 +95,14 @@ if ($palm == 1) {
                         <td><?php echo $row['place'] ?></td>
                         <td><?php echo $row['status'] ?></td>
                         <td>
-                            <a href="#">
+                            <a href="form_edit_need.php?333=<?php echo $row['id'] ?>">
                                 <button type="submit" class="btn waves-effect waves-light orange accent-4">แก้ไข
                                 </button>
                             </a>
                         </td>
                         <td>
                             <a href="delete_need.php?333=<?php echo $row['id'] ?>">
-                                <button type="submit" class="btn waves-effect waves-light red accent-4">ลบ
+                                <button type="submit" class="btn waves-effect waves-light red accent-4 "onclick="return confirm('คุณต้องการลบรายการนี้ ใช่หรือไม่ ?')">ลบ
                                 </button>
                             </a>
                         </td>

@@ -2,11 +2,12 @@
     require './../server/server.php';
    $id = $_GET['333'];
     $sql = "DELETE FROM `save_med` WHERE id = '$id' ";
-    if(mysqli_query($contact, $sql)){
-        // header("location:admin_page.php?alert=1");    
+    if(mysqli_query($connect, $sql)){
+        echo "<script>alert('ลบข้อมูลเรียบร้อยค่ะ');</script>";
+        header("location:admin_page.php"); 
         exit();
     }else{
-        // header("location:admin_page.php?alert=2");    
+        echo "<script>alert('ไม่สามารถลบข้อมูลได้ค่ะ');history.back();</script>";
         exit();
     }
 ?>
