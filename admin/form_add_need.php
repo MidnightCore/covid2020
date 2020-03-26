@@ -75,8 +75,8 @@
                         <label for="place">ที่อยู่สำหรับจัดส่ง</label>
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="input-field col s6">
+                <div class="row">
+                    <!--  <div class="input-field col s6">
                         <select name="status" id="status" class="validate" required>
                             <option value="" disabled selected>สถานะปัจจุบัน</option>
                             <option value="1">รอรับบริจาค</option>
@@ -91,10 +91,19 @@
                 </div>
             </form>
 
-            <div class="center-align">
-                <button type="submit" form="addrequest" class="btn waves-effect waves-light">ยืนยัน
-                    <i class="material-icons right">done</i>
-                </button>
+            <div class="row">
+                <div class="center-align col s6">
+                    <button type="submit" form="addrequest" class="btn waves-effect waves-light cyan accent-4">ยืนยัน
+                        <i class="material-icons right">done</i>
+                    </button>
+                </div>
+                <div class="center-align col s6">
+                    <a href="admin_page.php">
+                        <button type="button" class="btn waves-effect waves-light orange">ย้อนกลับ
+                            <i class="material-icons right">reply</i>
+                        </button>
+                    </a>
+                </div>
             </div><br><br><br>
 
         </div>

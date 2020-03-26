@@ -1,10 +1,10 @@
-<?php 
-    require './../server/server.php';
-    $id = $_GET['333'];
-    $sql = "SELECT id,need,piece,place,applicant,contact,status FROM save_med WHERE id = '$id' ";
-    $result = mysqli_query($connect, $sql);
-    $row = mysqli_fetch_array($result);
-    // echo$id;
+<?php
+require './../server/server.php';
+$id = $_GET['333'];
+$sql = "SELECT id,need,piece,place,applicant,contact,status FROM save_med WHERE id = '$id' ";
+$result = mysqli_query($connect, $sql);
+$row = mysqli_fetch_array($result);
+// echo$id;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,21 +65,21 @@
             <form class="col s12" action="edit_need.php" id="addrequest" method="POST">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input name="need" id="need" type="text" class="validate" value="<?php echo$row['need'] ?>"required>
+                        <input name="need" id="need" type="text" class="validate" value="<?php echo $row['need'] ?>" required>
                         <label for="need">สิ่งที่ต้องการ</label>
                     </div>
                     <div class="input-field col s6">
-                        <input name="piece" id="piece" type="number" class="validate" value="<?php echo$row['piece'] ?>"required>
+                        <input name="piece" id="piece" type="number" class="validate" value="<?php echo $row['piece'] ?>" required>
                         <label for="piece">จำนวน(ชิ้น)</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s6">
-                        <input name="applicant" id="applicant" type="text" class="validate" value="<?php echo$row['applicant'] ?>"required>
+                        <input name="applicant" id="applicant" type="text" class="validate" value="<?php echo $row['applicant'] ?>" required>
                         <label for="applicant">ผู้ขอรับบริจาค</label>
                     </div>
                     <div class="input-field col s6">
-                        <input name="place" id="place" type="text" class="validate" value="<?php echo$row['place'] ?>"required>
+                        <input name="place" id="place" type="text" class="validate" value="<?php echo $row['place'] ?>" required>
                         <label for="place">ที่อยู่สำหรับจัดส่ง</label>
                     </div>
                 </div>
@@ -93,21 +93,30 @@
                         <label for="status">เลือกสถานะ</label>
                     </div>
                     <div class="input-field col s6">
-                        <input name="contact" id="contact" type="text" class="validate" value="<?php echo$row['contact'] ?>"required>
+                        <input name="contact" id="contact" type="text" class="validate" value="<?php echo $row['contact'] ?>" required>
                         <label for="contact">เบอร์ติดต่อ</label>
                     </div>
                     <input type="hidden" name="id" value="<?php echo $row['id'] ?>">
                 </div>
             </form>
 
-            <div class="center-align">
-                <button type="submit" form="addrequest" class="btn waves-effect waves-light">ยืนยัน
-                    <i class="material-icons right">done</i>
-                </button>
-            </div><br><br><br>
-
+            <div class="row">
+                <div class="center-align col s6">
+                    <button type="submit" form="addrequest" class="btn waves-effect waves-light">ยืนยัน
+                        <i class="material-icons right">done</i>
+                    </button>
+                </div>
+                <div class="center-align col s6">
+                    <a href="admin_page.php">
+                        <button type="button" class="btn waves-effect waves-light orange">ย้อนกลับ
+                            <i class="material-icons right">reply</i>
+                        </button>
+                    </a>
+                </div>
+                <br><br><br>
+            </div>
         </div>
-        
+
     </div>
 </body>
 
