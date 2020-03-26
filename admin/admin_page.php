@@ -1,7 +1,7 @@
 <?php
     $status = "รอรับบริจาค";
     require './../server/server.php';
-    $sql = "SELECT `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $sql = "SELECT `id`' `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
     $result = mysqli_query($connect,$sql);
     $palm = 0;
 if (isset($_GET['alert'])) {
@@ -97,7 +97,7 @@ if ($palm == 1) {
                             </a>
                         </td>
                         <td>
-                            <a href="#">
+                            <a href="delete_need.php?333=<?php echo $row['id'] ?>">
                                 <button type="submit" class="btn waves-effect waves-light red accent-4">ลบ
                                 </button>
                             </a>
