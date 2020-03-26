@@ -74,7 +74,7 @@ if ($palm == 1) {
                                 <!-- <button type="submit" class="btn pulse waves-effect waves-light cyan accent-4" name="action">Login
                                     <i class="material-icons right">done</i>
                                 </button> -->
-                                <a href="admin/admin_page.php" class="btn pulse waves-effect waves-light cyan accent-4">Login
+                                <a href="login_form.php" class="btn pulse waves-effect waves-light cyan accent-4">Login
                                     <i class="material-icons right">done</i>
                                 </a>
                             </div>
