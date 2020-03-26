@@ -1,8 +1,8 @@
 <?php
-    $status = "รอรับบริจาค";
-    require './server/server.php';
-    $sql = "SELECT `need`, `piece`, `place`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
-    $result = mysqli_query($connect,$sql);
+$status = "รอรับบริจาค";
+require './server/server.php';
+$sql = "SELECT `need`, `piece`, `place`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+$result = mysqli_query($connect, $sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,22 +66,49 @@
             </thead>
 
             <tbody>
-                    <?php while ($row = mysqli_fetch_array($result)) {  ?>
+                <?php while ($row = mysqli_fetch_array($result)) {  ?>
 
-                        <tr>
-                            <td><?php echo $row['need'] ?></td>
-                            <td><?php echo $row['piece'] ?></td>
-                            <td><?php echo $row['applicant'] ?></td>
-                            <td><?php echo $row['place'] ?></td>
-                            <td><?php echo $row['status'] ?></td>
-                        </tr>
-                    <?php } ?>
+                    <tr>
+                        <td><?php echo $row['need'] ?></td>
+                        <td><?php echo $row['piece'] ?></td>
+                        <td><?php echo $row['applicant'] ?></td>
+                        <td><?php echo $row['place'] ?></td>
+                        <td><?php echo $row['status'] ?></td>
+                    </tr>
+                <?php } ?>
 
 
 
-                </tbody>
+            </tbody>
         </table>
-    </div>
+    </div><br><br><br>
+
+
+
+    <!-- ส่วนของ footer -->
+    <footer class="page-footer cyan accent-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About Us</h5>
+                    <p class="grey-text text-lighten-4">ทางสาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฏสวนสุนันทา ได้ร่วมมือกับ HomeSchoolTrip ในการจัดสร้างเว็บแอปพลิเคชันนี้ขึ้นมา</p>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contacts</h5>
+                    <ul>
+                        <li>Website : <a class="white-text" href="http://www.ce.fit.ssru.ac.th/" target="_blank">สาขาวิชาวิศกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฎสวนสุนันทา</a></li>
+                        <li>Facebook : <a class="white-text" href="https://www.facebook.com/CE-SSRU-101947597890618" target="_blank">Computer Engineering SSRU</a></li>
+                        <li>Youtube : <a class="white-text" href="https://www.youtube.com/channel/UCRz1y8LNlNtMke1o23ppmkw" target="_blank">CE@SSRU Channel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container white-text">
+                Made by : <a class="white-text text-lighten-3" href="login.php">Computer Engineering SSRU</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

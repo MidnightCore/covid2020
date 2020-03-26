@@ -4,13 +4,13 @@
     $sql = "SELECT id,need,piece,place,applicant,contact,status FROM save_med WHERE id = '$id' ";
     $result = mysqli_query($connect, $sql);
     $row = mysqli_fetch_array($result);
-    echo$id;
+    // echo$id;
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Add Request</title>
+    <title>Edit Request</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/font.css">
@@ -56,7 +56,7 @@
 
         <div class="row">
             <div class="col 6">
-                <h4>เพิ่มความต้องการ</h4>
+                <h4>แก้ไขความต้องการ</h4>
             </div>
         </div>
 
