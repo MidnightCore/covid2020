@@ -45,8 +45,12 @@
             <div class="col 6">
                 <h4>ตารางความต้องการทั้งหมด</h4>
             </div>
-            <br>
         </div>
+        <a href="#">
+            <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">เพิ่มความต้องการ
+                <i class="material-icons right">add</i>
+            </button>
+        </a><br><br>
 
         <table class="responsive-table">
             <thead>
@@ -56,6 +60,7 @@
                     <th style="font-family: 'Itim', cursive;">รายละเอียดผู้ขอ</th>
                     <th style="font-family: 'Itim', cursive;">สถานะปัจจุบัน</th>
                     <th style="font-family: 'Itim', cursive;">แก้ไข</th>
+                    <th style="font-family: 'Itim', cursive;">ลบ</th>
                 </tr>
             </thead>
 
@@ -69,7 +74,14 @@
                         <td>
                             <a href="#">
                                 <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">แก้ไข
-                                    <i class="material-icons right">border_color</i>
+                                    <i class="material-icons right">create</i>
+                                </button>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">ลบ
+                                    <i class="material-icons right">delete</i>
                                 </button>
                             </a>
                         </td>
