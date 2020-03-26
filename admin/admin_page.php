@@ -1,7 +1,7 @@
 <?php
     $status = "รอรับบริจาค";
     require './../server/server.php';
-    $sql = "SELECT `id`' `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $sql = "SELECT `id`, `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
     $result = mysqli_query($connect,$sql);
     $palm = 0;
 if (isset($_GET['alert'])) {

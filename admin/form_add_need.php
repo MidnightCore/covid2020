@@ -61,7 +61,7 @@
                         <label for="need">สิ่งที่ต้องการ</label>
                     </div>
                     <div class="input-field col s6">
-                        <input name="piece" id="piece" type="text" class="validate" required>
+                        <input name="piece" id="piece" type="number" class="validate" required>
                         <label for="piece">จำนวน(ชิ้น)</label>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                         <label for="place">ที่อยู่สำหรับจัดส่ง</label>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="input-field col s6">
                         <select name="status" id="status" class="validate" required>
                             <option value="" disabled selected>สถานะปัจจุบัน</option>
@@ -83,7 +83,7 @@
                             <option value="2">ได้รับบริจาคแล้ว</option>
                         </select>
                         <label for="status">เลือกสถานะ</label>
-                    </div>
+                    </div> -->
                     <div class="input-field col s6">
                         <input name="contact" id="contact" type="text" class="validate" required>
                         <label for="contact">เบอร์ติดต่อ</label>
