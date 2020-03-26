@@ -51,7 +51,7 @@ if ($palm == 1) {
                     <div class="col s12 m6 offset-m3">
                         <div class="card center-align mg">
                             <div class="card-content"><br>
-                                <span class="card-title"><h4>#SaveMed Admin Login</h4></span><br>
+                                <span class="card-title"><h4>#SaveMed Admin</h4></span><br>
                                 <div class="row">
                                     <div class="col s12">
                                         <div class="row">
