@@ -47,7 +47,7 @@ if ($palm == 1) {
 <body>
     <div class="container">
         <div class="row"><br><br><br>
-            <form action="login_form.php" method="POST" id="palm" name="palm">
+            <form action="login_form.php" method="POST">
                 <div class="row">
                     <div class="col s12 m6 offset-m3">
                         <div class="card center-align mg">
@@ -74,9 +74,9 @@ if ($palm == 1) {
                                 <!-- <button type="submit" class="btn pulse waves-effect waves-light cyan accent-4" name="action">Login
                                     <i class="material-icons right">done</i>
                                 </button> -->
-                                <a href="login_form.php" class="btn pulse waves-effect waves-light cyan accent-4">Login
+                                <button type="submit" class="btn pulse waves-effect waves-light cyan accent-4">Login
                                     <i class="material-icons right">done</i>
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>

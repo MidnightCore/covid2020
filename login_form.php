@@ -3,10 +3,11 @@ session_start();
 
   $em_User       = $_POST['em_User'];
   $em_Password   = $_POST['em_Password'];
+echo$em_Password;
+echo$em_User;
+  require './server/server.php';
 
-  require 'server/server.php';
-
-  $sql    = "SELECT user.id,user.password,user.role,fname,lname FROM user WHERE user.id ='$em_User' and user.password='$em_Password'";
+  $sql    = "SELECT `id`,`password`,`role`,`fname`,`lname` FROM `admin` WHERE `id` ='$em_User' and `password`='$em_Password'";
   $result = mysqli_query($connect,$sql);
 
   $role    = mysqli_fetch_array($result);
@@ -22,8 +23,7 @@ session_start();
       header("location:login.php?alert=2");
       exit();
     }
-  }
-  else {
-    header("location:login.php?alert=1");
+  }else{
+    // header("location:login.php?alert=1");
     exit();
   }
