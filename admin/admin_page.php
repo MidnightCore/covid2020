@@ -49,7 +49,7 @@
             </div>
         </div>
         <a href="#">
-            <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">เพิ่มความต้องการ
+            <button type="submit" class="btn waves-effect waves-light light-green accent-4">เพิ่มความต้องการ
                 <i class="material-icons right">add</i>
             </button>
         </a><br><br>
@@ -75,14 +75,14 @@
                         <td><?php echo $row['status'] ?></td>
                         <td>
                             <a href="#">
-                                <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">แก้ไข
+                                <button type="submit" class="btn waves-effect waves-light orange accent-4">แก้ไข
                                     <i class="material-icons right">create</i>
                                 </button>
                             </a>
                         </td>
                         <td>
                             <a href="#">
-                                <button type="submit" class="btn cyan accent-4-effect cyan accent-4-light">ลบ
+                                <button type="submit" class="btn waves-effect waves-light red accent-4">ลบ
                                     <i class="material-icons right">delete</i>
                                 </button>
                             </a>
