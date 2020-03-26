@@ -278,6 +278,37 @@
 
 
 
+            <!-- โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ
+ -->
+            <div class="col s12 m4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="img/tu.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <h6><b>โรงพยาบาลธรรมศาสตร์</b></h6>
+                        <h6>รับบริจาคเพื่อสมทบทุน ซื้ออุปกรณ์ทางการแพทย์</h6>
+                    </div>
+
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal7">รายละเอียด</a>
+                    <!-- Modal Structure -->
+                    <div id="modal7" class="modal modal-footer">
+                        <div class="modal-content">
+                            <h4>โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ</h4>
+                            <img class="responsive-img" src="img/tu.jpg">
+                            <!-- <p>A bunch of text</p> -->
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">ปิด</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div><br><br>
 
@@ -349,7 +380,7 @@
                     <p class="grey-text text-lighten-4">ทางสาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฏสวนสุนันทา ได้ร่วมมือกับ HomeSchoolTrip ในการจัดสร้างเว็บแอปพลิเคชันนี้ขึ้นมา</p>
                 </div>
                 <div class="col l6 s12">
-                    <h5 class="white-text">Contact</h5>
+                    <h5 class="white-text">Contacts</h5>
                     <ul>
                         <li>Website : <a class="white-text" href="http://www.ce.fit.ssru.ac.th/" target="_blank">สาขาวิชาวิศกรรมคอมพิวเตอร์ มหาวิทยาลัยราชภัฎสวนสุนันทา</a></li>
                         <li>Facebook : <a class="white-text" href="https://www.facebook.com/CE-SSRU-101947597890618" target="_blank">Computer Engineering SSRU</a></li>
