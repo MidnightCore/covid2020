@@ -1,7 +1,7 @@
 <?php
     $status = "รอรับบริจาค";
     require './../server/server.php';
-    $sql = "SELECT `need`, `piece`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $sql = "SELECT `need`, `piece`, `place`,`applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
     $result = mysqli_query($connect,$sql);
 ?>
 <!DOCTYPE html>
@@ -64,8 +64,9 @@
             <thead>
                 <tr>
                     <th style="font-family: 'Itim', cursive;">สิ่งที่ต้องการ</th>
-                    <th style="font-family: 'Itim', cursive;">จำนวนชิ้น</th>
-                    <th style="font-family: 'Itim', cursive;">รายละเอียดผู้ขอ</th>
+                    <th style="font-family: 'Itim', cursive;">จำนวน(ชิ้น)</th>
+                    <th style="font-family: 'Itim', cursive;">ผู้ขอรับบริจาค</th>
+                    <th style="font-family: 'Itim', cursive;">ที่อยู่สำหรับจัดส่ง</th>
                     <th style="font-family: 'Itim', cursive;">สถานะปัจจุบัน</th>
                     <th style="font-family: 'Itim', cursive;">แก้ไข</th>
                     <th style="font-family: 'Itim', cursive;">ลบ</th>
@@ -78,18 +79,17 @@
                         <td><?php echo $row['need'] ?></td>
                         <td><?php echo $row['piece'] ?></td>
                         <td><?php echo $row['applicant'] ?></td>
+                        <td><?php echo $row['place'] ?></td>
                         <td><?php echo $row['status'] ?></td>
                         <td>
                             <a href="#">
                                 <button type="submit" class="btn waves-effect waves-light orange accent-4">แก้ไข
-                                    <i class="material-icons right">create</i>
                                 </button>
                             </a>
                         </td>
                         <td>
                             <a href="#">
                                 <button type="submit" class="btn waves-effect waves-light red accent-4">ลบ
-                                    <i class="material-icons right">delete</i>
                                 </button>
                             </a>
                         </td>

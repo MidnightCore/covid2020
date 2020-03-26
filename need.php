@@ -1,7 +1,7 @@
 <?php
     $status = "รอรับบริจาค";
     require './server/server.php';
-    $sql = "SELECT `need`, `piece`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+    $sql = "SELECT `need`, `piece`, `place`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
     $result = mysqli_query($connect,$sql);
 ?>
 <!DOCTYPE html>
@@ -32,14 +32,14 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.php" class="brand-logo white-text"><b>#SaveMed</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="need.php" class="white-text"><b>What Need</b></a></li>
+                <li><a href="need.php" class="white-text"><b>What Need ?</b></a></li>
                 <li><a href="https://covidtracker.5lab.co/" target="_blank" class="white-text"><b>Covid-19 Map</b></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
                 <br><br><br>
                 <li><a href="index.php" class="black-text"><b>#SaveMed</b></a></li><br>
-                <li><a href="need.php" class="black-text"><b>What Need</b></a></li><br>
+                <li><a href="need.php" class="black-text"><b>What Need ?</b></a></li><br>
                 <li><a href="https://covidtracker.5lab.co/" target="_blank" class="black-text"><b>Covid-19 Map</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -58,10 +58,10 @@
             <thead>
                 <tr>
                     <th style="font-family: 'Itim', cursive;">สิ่งที่ต้องการ</th>
-                    <th style="font-family: 'Itim', cursive;">จำนวนชิ้น</th>
-                    <th style="font-family: 'Itim', cursive;">รายละเอียดผู้ขอ</th>
+                    <th style="font-family: 'Itim', cursive;">จำนวน(ชิ้น)</th>
+                    <th style="font-family: 'Itim', cursive;">ผู้ขอรับบริจาค</th>
+                    <th style="font-family: 'Itim', cursive;">ที่อยู่สำหรับจัดส่ง</th>
                     <th style="font-family: 'Itim', cursive;">สถานะปัจจุบัน</th>
-                    <!-- <th style="font-family: 'Itim', cursive;">แก้ไข</th> -->
                 </tr>
             </thead>
 
@@ -72,6 +72,7 @@
                             <td><?php echo $row['need'] ?></td>
                             <td><?php echo $row['piece'] ?></td>
                             <td><?php echo $row['applicant'] ?></td>
+                            <td><?php echo $row['place'] ?></td>
                             <td><?php echo $row['status'] ?></td>
                         </tr>
                     <?php } ?>
