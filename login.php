@@ -17,7 +17,7 @@ if ($palm == 1) {
 <html lang="en">
 
 <head>
-    <title>#SaveMed Admin</title>
+    <title>#SaveMed Login</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/font.css">
@@ -46,7 +46,7 @@ if ($palm == 1) {
 
 <body>
     <div class="container">
-        <div class="row"><br><br><br>
+        <div class="row"><br><br><br><br><br>
             <form action="login_form.php" method="POST" id="palm" name="palm">
                 <div class="row">
                     <div class="col s12 m6 offset-m3">
