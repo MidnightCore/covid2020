@@ -91,7 +91,7 @@
                         <label for="status">เลือกสถานะ</label>
                     </div> -->
                     <div class="input-field col s6">
-                        <input name="contact" id="contact" type="text" class="validate" required>
+                        <input name="contact" id="contact" type="number" class="validate" required>
                         <label for="contact">เบอร์ติดต่อ</label>
                     </div>
                 </div>
@@ -99,16 +99,16 @@
 
             <div class="row">
                 <div class="center-align col s6">
-                    <button type="submit" form="addrequest" class="btn waves-effect waves-light cyan accent-4">ยืนยัน
-                        <i class="material-icons right">done</i>
-                    </button>
-                </div>
-                <div class="center-align col s6">
                     <a href="admin_page.php">
                         <button type="button" class="btn waves-effect waves-light orange">ย้อนกลับ
                             <i class="material-icons right">reply</i>
                         </button>
                     </a>
+                </div>
+                <div class="center-align col s6">
+                    <button type="submit" form="addrequest" class="btn waves-effect waves-light cyan accent-4">ยืนยัน
+                        <i class="material-icons right">done</i>
+                    </button>
                 </div>
             </div><br><br><br><br><br><br><br><br><br>
 

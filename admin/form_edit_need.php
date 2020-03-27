@@ -99,7 +99,7 @@ $row = mysqli_fetch_array($result);
                         <label for="status">เลือกสถานะ</label>
                     </div>
                     <div class="input-field col s6">
-                        <input name="contact" id="contact" type="text" class="validate" value="<?php echo $row['contact'] ?>" required>
+                        <input name="contact" id="contact" type="number" class="validate" value="<?php echo $row['contact'] ?>" required>
                         <label for="contact">เบอร์ติดต่อ</label>
                     </div>
                     <input type="hidden" name="id" value="<?php echo $row['id'] ?>">
@@ -108,16 +108,16 @@ $row = mysqli_fetch_array($result);
 
             <div class="row">
                 <div class="center-align col s6">
-                    <button type="submit" form="addrequest" class="btn waves-effect waves-light">ยืนยัน
-                        <i class="material-icons right">done</i>
-                    </button>
-                </div>
-                <div class="center-align col s6">
                     <a href="admin_page.php">
                         <button type="button" class="btn waves-effect waves-light orange">ย้อนกลับ
                             <i class="material-icons right">reply</i>
                         </button>
                     </a>
+                </div>
+                <div class="center-align col s6">
+                    <button type="submit" form="addrequest" class="btn waves-effect waves-light">ยืนยัน
+                        <i class="material-icons right">done</i>
+                    </button>
                 </div>
                 <br><br><br>
             </div>

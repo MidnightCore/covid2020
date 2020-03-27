@@ -1,14 +1,15 @@
-<?ob_start();?>
+<? ob_start(); ?>
 
-<?php 
+<?php
     require './../server/server.php';
-   $id = $_GET['333'];
+    $id = $_GET['333'];
     $sql = "DELETE FROM `save_med` WHERE id = '$id' ";
-    if(mysqli_query($connect, $sql)){
+
+    if (mysqli_query($connect, $sql)) {
         echo "<script>alert('ลบข้อมูลเรียบร้อยค่ะ');</script>";
-        header("location:admin_page.php"); 
+        header("location:admin_page.php?alert=5");
         exit();
-    }else{
+    } else {
         echo "<script>alert('ไม่สามารถลบข้อมูลได้ค่ะ');history.back();</script>";
         exit();
     }
