@@ -94,7 +94,9 @@ $row = mysqli_fetch_array($result);
                         <select name="status" id="status" class="validate" required>
                             <option value="" disabled selected>สถานะปัจจุบัน</option>
                             <option value="รอรับบริจาค">รอรับบริจาค</option>
-                            <option value="ได้รับบริจาคครบแล้ว">ได้รับบริจาคครบแล้ว</option>
+                            <option value="กำลังดำเนินการ">กำลังดำเนินการ</option>
+                            <option value="ส่งของแล้ว">ส่งของแล้ว</option>
+                            <option value="ได้รับบริจาคแล้ว">ได้รับของบริจาคแล้ว</option>
                         </select>
                         <label for="status">เลือกสถานะ</label>
                     </div>
