@@ -42,7 +42,7 @@ $result = mysqli_query($connect, $sql);
                 <li><a href="need.php" class="black-text"><b>What Need ?</b></a></li><br>
                 <li><a href="https://covidtracker.5lab.co/" target="_blank" class="black-text"><b>Covid-19 Map (By⚡5Lab)</b></a></li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
         </div>
     </nav><br>
 
@@ -54,7 +54,7 @@ $result = mysqli_query($connect, $sql);
 
     <!-- ส่วนของตาราง -->
     <div class="container">
-        <table class="responsive-table">
+        <table class="striped">
             <thead>
                 <tr>
                     <th style="font-family: 'Itim', cursive;">สิ่งที่ต้องการ</th>

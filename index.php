@@ -43,7 +43,7 @@
                 <li><a href="need.php" class="black-text"><b>What Need ?</b></a></li><br>
                 <li><a href="https://covidtracker.5lab.co/" target="_blank" class="black-text"><b>Covid-19 Map (By⚡5Lab)</b></a></li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
         </div>
     </nav>
 
