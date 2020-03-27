@@ -104,10 +104,21 @@
                         </button>
                     </a>
                 </div>
-            </div><br><br><br>
+            </div><br><br><br><br><br><br><br><br><br>
 
         </div>
     </div>
+
+
+
+    <!-- ส่วนของ footer -->
+    <footer class="page-footer cyan accent-4">
+        <div class="footer-copyright">
+            <div class="container white-text">
+                Made by : <a class="white-text text-lighten-3" href="login.php">Computer Engineering SSRU</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 <?php
-    // $status = "รอรับบริจาค";
-    require './../server/server.php';
-    $sql = "SELECT `id`, `need`, `piece`, `place`,`applicant`, `status` FROM save_med ";
-    $result = mysqli_query($connect,$sql);
-    $palm = 0;
+// $status = "รอรับบริจาค";
+require './../server/server.php';
+$sql = "SELECT `id`, `need`, `piece`, `place`,`applicant`, `status` FROM save_med ";
+$result = mysqli_query($connect, $sql);
+$palm = 0;
 if (isset($_GET['alert'])) {
     $palm = $_GET['alert'];
 }
@@ -13,7 +13,7 @@ if ($palm == 1) {
     echo "<script>alert('ไม่สามารถเพิ่มข้อมูลได้ค่ะ');history.back();</script>";
 } else if ($palm == 3) {
     echo "<script>alert('แก้ไขข้อมูลเรียบร้อยแล้วค่ะ');</script>";
-}else if ($palm == 4) {
+} else if ($palm == 4) {
     echo "<script>alert('ไม่สามารถแก้ไขข้อมูลได้ค่ะ');history.back();</script>";
 }
 ?>
@@ -60,6 +60,8 @@ if ($palm == 1) {
     </nav>
 
 
+
+    <!-- ส่วนของตาราง -->
     <div class="container">
         <br>
         <div class="row">
@@ -102,7 +104,7 @@ if ($palm == 1) {
                         </td>
                         <td>
                             <a href="delete_need.php?333=<?php echo $row['id'] ?>">
-                                <button type="submit" class="btn waves-effect waves-light red accent-4 "onclick="return confirm('คุณต้องการลบรายการนี้ ใช่หรือไม่ ?')">ลบ
+                                <button type="submit" class="btn waves-effect waves-light red accent-4 " onclick="return confirm('คุณต้องการลบรายการนี้ ใช่หรือไม่ ?')">ลบ
                                 </button>
                             </a>
                         </td>
@@ -113,6 +115,17 @@ if ($palm == 1) {
         </table>
         <br><br><br>
     </div>
+
+
+
+    <!-- ส่วนของ footer -->
+    <footer class="page-footer cyan accent-4">
+        <div class="footer-copyright">
+            <div class="container white-text">
+                Made by : <a class="white-text text-lighten-3" href="login.php">Computer Engineering SSRU</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

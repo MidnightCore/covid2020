@@ -117,7 +117,18 @@ $row = mysqli_fetch_array($result);
             </div>
         </div>
 
-    </div>
+    </div><br><br><br><br><br><br><br><br><br>
+
+
+
+    <!-- ส่วนของ footer -->
+    <footer class="page-footer cyan accent-4">
+        <div class="footer-copyright">
+            <div class="container white-text">
+                Made by : <a class="white-text text-lighten-3" href="login.php">Computer Engineering SSRU</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
