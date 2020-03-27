@@ -1,3 +1,5 @@
+<?ob_start();?>
+
 <?php 
     require './../server/server.php';
    $id = $_GET['333'];

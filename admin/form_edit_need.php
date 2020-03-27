@@ -40,10 +40,16 @@ $row = mysqli_fetch_array($result);
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <br><br><br>
-                <li><a href="admin_page.php" class="black-text"><b>Admin Page</b></a></li><br>
-                <li><a href="../need.php" target="_blank" class="black-text"><b>Go to - What Need ?</b></a></li><br>
-                <li><a href="../index.php" class="black-text"><b>Logout</b></a></li>
+                <br>
+                <h2 style="text-align: center" class="black-text">#SaveMed</h2>
+                <h5 style="text-align: center" class="black-text">Web Application</h5>
+                <h5 style="text-align: center" class="black-text">ประชาสัมพันธ์การบริจาค</h5>
+                <h5 style="text-align: center" class="black-text">เพื่อสนับสนุนเจ้าหน้าที่</h5>
+                <h5 style="text-align: center" class="black-text">และบุคลากรทางการแพทย์</h5><br>
+                <h4 style="text-align: center" class="black-text">Menu</h4>
+                <li><a href="admin_page.php" class="black-text"><b>Admin Page 💻</b></a></li>
+                <li><a href="../need.php" target="_blank" class="black-text"><b>Go to -📝 What Need ?</b></a></li>
+                <li><a href="../index.php" class="black-text"><b>Logout 🚪</b></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
         </div>
