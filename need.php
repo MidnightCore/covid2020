@@ -1,7 +1,7 @@
 <?php
 $status = "รอรับบริจาค";
 require './server/server.php';
-$sql = "SELECT `need`, `piece`, `place`, `applicant`, `status` FROM save_med WHERE save_med.status = '$status' ";
+$sql = "SELECT `need`, `piece`, `place`, `applicant`, `contact`,`status` FROM save_med WHERE save_med.status = '$status' ";
 $result = mysqli_query($connect, $sql);
 ?>
 <!DOCTYPE html>
@@ -23,6 +23,13 @@ $result = mysqli_query($connect, $sql);
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+
+    <style>
+        th , td{
+            text-align :center;
+            font-family:'Itim', cursive;
+        }
+    </style>
 
 </head>
 
@@ -57,11 +64,12 @@ $result = mysqli_query($connect, $sql);
         <table class="striped">
             <thead>
                 <tr>
-                    <th style="font-family: 'Itim', cursive;">สิ่งที่ต้องการ</th>
-                    <th style="font-family: 'Itim', cursive;">จำนวน(ชิ้น)</th>
-                    <th style="font-family: 'Itim', cursive;">ผู้ขอรับบริจาค</th>
-                    <th style="font-family: 'Itim', cursive;">ที่อยู่สำหรับจัดส่ง</th>
-                    <th style="font-family: 'Itim', cursive;">สถานะปัจจุบัน</th>
+                    <th style="padding-right: 25px; padding-left: 25px">สิ่งที่ต้องการ</th>
+                    <th>จำนวน(ชิ้น)</th>
+                    <th style="padding-right: 75px; padding-left: 75px">ผู้ขอรับบริจาค</th>
+                    <th style="padding-right: 75px; padding-left: 75px">ที่อยู่สำหรับจัดส่ง</th>
+                    <th style="padding-right: 25px; padding-left: 25px">เบอร์ติดต่อ</th>
+                    <th style="padding-right: 25px; padding-left: 25px">สถานะปัจจุบัน</th>
                 </tr>
             </thead>
 
@@ -73,6 +81,7 @@ $result = mysqli_query($connect, $sql);
                         <td><?php echo $row['piece'] ?></td>
                         <td><?php echo $row['applicant'] ?></td>
                         <td><?php echo $row['place'] ?></td>
+                        <td><?php echo $row['contact'] ?></td>
                         <td><?php echo $row['status'] ?></td>
                     </tr>
                 <?php } ?>
@@ -81,7 +90,8 @@ $result = mysqli_query($connect, $sql);
 
             </tbody>
         </table>
-    </div><br><br><br>
+    </div>
+    <br><br><br>
 
 
 
