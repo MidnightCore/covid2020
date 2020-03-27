@@ -60,7 +60,7 @@ $result = mysqli_query($connect, $sql);
     </nav><br>
 
     <div class="container">
-        <h4>ตารางความต้องการ</h4>
+        <h4>ตารางสิ่งที่รอรับบริจาค</h4>
         <h6><i style="color: red">*ในขณะนี้</i></h6>
         <br>
     </div>
