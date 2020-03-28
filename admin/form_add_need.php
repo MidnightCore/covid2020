@@ -62,8 +62,18 @@
         <div class="row">
             <form class="col s12" action="add_need.php" id="addrequest" method="POST">
                 <div class="row">
-                    <div class="input-field col s6">
+                    <!-- <div class="input-field col s6">
                         <input name="need" id="need" type="text" class="validate" required>
+                        <label for="need">สิ่งที่ต้องการ</label>
+                    </div> -->
+                    <div class="input-field col s6">
+                        <select name="need" id="need" class="validate" required>
+                            <option value="" disabled selected>สิ่งที่ต้องการ</option>
+                            <option value="1">face shield</option>
+                            <option value="2">กล่อง</option>
+                            <option value="3">thermo scan</option>
+                            <option value="4">PPE</option>
+                        </select>
                         <label for="need">สิ่งที่ต้องการ</label>
                     </div>
                     <div class="input-field col s6">
@@ -91,7 +101,7 @@
                         <label for="status">เลือกสถานะ</label>
                     </div> -->
                     <div class="input-field col s6">
-                        <input name="contact" id="contact" type="number" class="validate" required>
+                        <input name="contact" id="contact" type="text" class="validate" required>
                         <label for="contact">เบอร์ติดต่อ</label>
                     </div>
                 </div>
