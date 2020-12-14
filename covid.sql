@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 26, 2020 at 02:33 PM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.7
+-- Generation Time: Dec 14, 2020 at 03:00 PM
+-- Server version: 10.4.16-MariaDB
+-- PHP Version: 7.4.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -64,7 +63,6 @@ CREATE TABLE `save_med` (
 --
 
 INSERT INTO `save_med` (`id`, `need`, `piece`, `place`, `applicant`, `contact`, `status`) VALUES
-(1, 'face shield', 400, 'ภาควิชาวิสัญญีวิทยา คณะแพทยศาสตร์ศิริราชพยาบาล บางกอกน้อย กทม 10700', 'นพ.สมเกียรติ อรุณพฤกษากุล', '', 'รอรับบริจาค'),
 (2, 'face shield', 200, 'ศูนย์บริการสาธารณสุขโพธิ์กลาง เทศบาลนครนครราชสีมา \r\nจ.นครราชสีมา', 'พญ.จิราวรรณ จันทร์เลิศฤทธิ์', '', 'รอรับบริจาค'),
 (3, 'face shield', 60, 'หน่วยทารกแรกเกิด \r\nกองกุมารเวชกรรม\r\nโรงพยาบาลพระมงกุฏเกล้า\r\nที่อยู่ 315 \r\nอาคารพัชรกิตติยาภา ชั้น2 แขวงทุ่งพญาไท เขตราชเทวี กทม. 10400', 'ภัทราพร จันทร์เมืองไทย', '', 'รอรับบริจาค'),
 (4, 'face shield', 200, 'คณะแพทยศาสตร์มหาวิทยาลัยบูรพา 169 ถ.ลงหาดบางแสน\r\nต.แสนสุข อ.เมือง จ.ชลบุรี 20131', 'รมร แย้มประทุม', '', 'รอรับบริจาค'),
